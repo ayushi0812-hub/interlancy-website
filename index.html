@@ -1,187 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interlancy | Transforming Schools. Empowering Futures.</title>
-    <meta name="description" content="B2B Education Consulting & School Transformation.">
-    <meta property="og:title" content="Interlancy | Transforming Schools. Empowering Futures.">
-    <meta property="og:description" content="B2B Education Consulting & School Transformation.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.interlancy.com">
-    <meta property="og:image" content="https://www.interlancy.com/img/og-image.jpg">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interlancy Education — Shaping Better Possibilities in Education</title>
+  
+  <meta property="og:title" content="Interlancy Education — Shaping Better Possibilities in Education">
+  <meta property="og:description" content="Founded in 2021, Interlancy Education is an educational consulting and services organisation working alongside institutions to strengthen the way education is envisioned, managed and experienced.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
 </head>
 <body>
-    <header class="header">
-        <div class="container header__container">
-            <a href="index.html" class="header__logo">Interlancy</a>
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item"><a href="index.html" class="header__nav-link header__nav-link--active">Home</a></li>
-                    <li class="header__nav-item"><a href="about.html" class="header__nav-link">About</a></li>
-                    <li class="header__nav-item"><a href="services.html" class="header__nav-link">Services</a></li>
-                    <li class="header__nav-item"><a href="contact.html" class="header__nav-link">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="header__mobile-toggle" aria-label="Toggle menu">
-                <i class="fas fa-bars"></i>
-            </button>
+
+  <header class="header" id="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">
+        <img src="assets/images/interlancy-logo.jpg" alt="Interlancy Education" class="header__logo-img">
+        <span class="header__logo-text">INTERLANCY EDUCATION</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link active">Home</a></li>
+          <li><a href="about.html" class="nav__link">About Us</a></li>
+          <li><a href="our-work.html" class="nav__link">Our Work</a></li>
+          <li><a href="careers.html" class="nav__link">Careers</a></li>
+          <li><a href="contact.html" class="nav__link">Contact Us</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn--primary header__cta">Get in Touch</a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="index.html" class="mobile-menu__link active">Home</a>
+    <a href="about.html" class="mobile-menu__link">About Us</a>
+    <a href="our-work.html" class="mobile-menu__link">Our Work</a>
+    <a href="careers.html" class="mobile-menu__link">Careers</a>
+    <a href="contact.html" class="mobile-menu__link">Contact Us</a>
+    <a href="contact.html" class="btn btn--primary mobile-menu__cta">Get in Touch</a>
+  </div>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <span class="hero__eyebrow section__eyebrow">INTERLANCY EDUCATION</span>
+          <h1 class="hero__heading">Shaping Better Possibilities in Education.</h1>
+          <p class="hero__text">Founded in 2021, Interlancy Education is an educational consulting and services organisation working alongside institutions to strengthen the way education is envisioned, managed and experienced.</p>
+          <div class="hero__actions">
+            <a href="our-work.html" class="btn btn--primary">Explore Our Work</a>
+            <a href="contact.html" class="btn btn--secondary">Get in Touch</a>
+          </div>
         </div>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container hero__container">
-                <div class="hero__content">
-                    <h1 class="hero__title">Transforming Schools. Empowering Futures.</h1>
-                    <p class="hero__text">We partner with educational institutions to elevate learning outcomes, streamline operations, and build a lasting legacy of excellence.</p>
-                    <a href="contact.html" class="btn btn--primary">Contact Us</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Stats Section -->
-        <section class="stats">
-            <div class="container stats__container">
-                <div class="stats__item">
-                    <span class="stats__number">500+</span>
-                    <span class="stats__label">Schools Transformed</span>
-                </div>
-                <div class="stats__item">
-                    <span class="stats__number">15+</span>
-                    <span class="stats__label">Years Experience</span>
-                </div>
-                <div class="stats__item">
-                    <span class="stats__number">10,000+</span>
-                    <span class="stats__label">Educators Trained</span>
-                </div>
-                <div class="stats__item">
-                    <span class="stats__number">50+</span>
-                    <span class="stats__label">Cities Reached</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Overview -->
-        <section class="services-overview">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-header__title">Our Expertise</h2>
-                    <p class="section-header__subtitle">Comprehensive solutions tailored to your institution's unique needs.</p>
-                </div>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-card__icon"><i class="fas fa-book-open"></i></div>
-                        <h3 class="service-card__title">Curriculum Design</h3>
-                        <p class="service-card__desc">Modern, engaging, and standards-aligned curriculum frameworks for 21st-century learners.</p>
-                        <a href="services.html" class="service-card__link">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-card__icon"><i class="fas fa-chalkboard-teacher"></i></div>
-                        <h3 class="service-card__title">Teacher Training</h3>
-                        <p class="service-card__desc">Empower your educators with cutting-edge pedagogical strategies and continuous professional development.</p>
-                        <a href="services.html" class="service-card__link">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-card__icon"><i class="fas fa-award"></i></div>
-                        <h3 class="service-card__title">School Accreditation</h3>
-                        <p class="service-card__desc">Navigate the complexities of local and international accreditation with our expert guidance.</p>
-                        <a href="services.html" class="service-card__link">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-card__icon"><i class="fas fa-laptop-code"></i></div>
-                        <h3 class="service-card__title">Digital Transformation</h3>
-                        <p class="service-card__desc">Seamlessly integrate technology to enhance administrative efficiency and educational delivery.</p>
-                        <a href="services.html" class="service-card__link">Learn More <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials -->
-        <section class="testimonials">
-            <div class="container">
-                <h2 class="section-header__title text-center">What Our Partners Say</h2>
-                <div class="testimonials__grid">
-                    <div class="testimonial-card">
-                        <p class="testimonial-card__quote">"Interlancy revolutionized our curriculum approach. The professional development our teachers received has translated directly into improved student engagement."</p>
-                        <div class="testimonial-card__author">
-                            <div class="testimonial-card__author-info">
-                                <strong>Dr. Sarah Jenkins</strong>
-                                <span>Principal, Oakwood Academy</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-card">
-                        <p class="testimonial-card__quote">"Their strategic guidance during our accreditation process was invaluable. They transformed a daunting task into a manageable, successful journey."</p>
-                        <div class="testimonial-card__author">
-                            <div class="testimonial-card__author-info">
-                                <strong>Michael Chang</strong>
-                                <span>Director, Pioneer International School</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Banner -->
-        <section class="cta-banner">
-            <div class="container cta-banner__container">
-                <h2 class="cta-banner__title">Ready to Elevate Your Institution?</h2>
-                <p class="cta-banner__text">Let's discuss how we can tailor our expertise to achieve your school's vision.</p>
-                <a href="contact.html" class="btn btn--secondary">Get in Touch</a>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container footer__container">
-            <div class="footer__col">
-                <h3 class="footer__logo">Interlancy</h3>
-                <p class="footer__desc">Transforming Schools. Empowering Futures. B2B Education Consulting & School Transformation.</p>
-            </div>
-            <div class="footer__col">
-                <h4 class="footer__heading">Quick Links</h4>
-                <ul class="footer__links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="footer__col">
-                <h4 class="footer__heading">Contact Info</h4>
-                <ul class="footer__contact">
-                    <li><i class="fas fa-map-marker-alt"></i> 123 Education Blvd, Suite 100, City, ST 12345</li>
-                    <li><i class="fas fa-phone"></i> (555) 123-4567</li>
-                    <li><i class="fas fa-envelope"></i> info@interlancy.com</li>
-                </ul>
-            </div>
-            <div class="footer__col">
-                <h4 class="footer__heading">Follow Us</h4>
-                <div class="footer__socials">
-                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
+        <div class="hero__visual reveal">
+          <img src="assets/images/home-hero.jpg" alt="Abstract illustration representing connected educational ecosystems" loading="eager">
         </div>
-        <div class="footer__bottom">
-            <div class="container">
-                <p>&copy; 2026 Interlancy. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+      </div>
+    </section>
 
-    <script src="js/main.js"></script>
+    <section class="who-we-are section" id="who-we-are">
+      <div class="container who-we-are__container">
+        <div class="who-we-are__content reveal">
+          <span class="section__eyebrow">About</span>
+          <h2 class="section__heading">Who We Are</h2>
+          <p class="who-we-are__text">Interlancy Education is an educational consulting and services organisation established in 2021. We work alongside educational institutions to understand their unique contexts, identify their evolving needs and support them through practical, thoughtful and collaborative solutions.</p>
+          <a href="about.html" class="btn btn--ghost">Discover Interlancy</a>
+        </div>
+        <div class="who-we-are__visual reveal">
+          <!-- Decorative element: a subtle abstract accent using CSS borders/shapes -->
+          <div class="who-we-are__accent" aria-hidden="true">
+            <div class="who-we-are__accent-line"></div>
+            <div class="who-we-are__accent-dot"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="vision-mission section" id="vision-mission">
+      <div class="container">
+        <div class="vision-mission__header reveal">
+          <span class="section__eyebrow">Our Foundation</span>
+          <h2 class="section__heading">Vision &amp; Mission</h2>
+        </div>
+        <div class="vision-mission__grid">
+          <div class="vision-mission__card vision-mission__card--vision reveal">
+            <span class="vision-mission__label section__eyebrow">Our Vision</span>
+            <p class="vision-mission__text">We believe every educational institution can grow stronger by understanding its people better — the educators who teach, the leaders who guide, and the students they all serve. When that understanding is real, growth follows naturally.</p>
+          </div>
+          <div class="vision-mission__card vision-mission__card--mission reveal">
+            <span class="vision-mission__label section__eyebrow">Our Mission</span>
+            <p class="vision-mission__text">Interlancy works closely with educational institutions to understand their people and their challenges, and to help them build stronger, more sustainable ways forward — as a partner, not just a service provider.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="principles section" id="principles">
+      <div class="container">
+        <div class="principles__header text-center reveal">
+          <span class="section__eyebrow">Our Approach</span>
+          <h2 class="section__heading">What Guides Our Work</h2>
+          <p class="section__subtext" style="margin: 0 auto;">We believe meaningful educational development begins with understanding people, contexts and needs.</p>
+        </div>
+        <div class="principles__grid">
+          <!-- Card 1 -->
+          <div class="principles__card reveal">
+            <div class="principles__icon">
+              <!-- Simple heart SVG -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </div>
+            <h3 class="principles__name">Child-Centred</h3>
+            <p class="principles__desc">Keeping children's learning, development and well-being at the heart of educational thinking.</p>
+          </div>
+          <!-- Card 2 -->
+          <div class="principles__card reveal">
+            <div class="principles__icon">
+              <!-- Compass SVG -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+            </div>
+            <h3 class="principles__name">Context-Driven</h3>
+            <p class="principles__desc">Understanding the unique needs and realities of every institution.</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="principles__card reveal">
+            <div class="principles__icon">
+              <!-- Two people/collaboration SVG -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <h3 class="principles__name">Collaborative</h3>
+            <p class="principles__desc">Working alongside educators, leaders and institutions.</p>
+          </div>
+          <!-- Card 4 -->
+          <div class="principles__card reveal">
+            <div class="principles__icon">
+              <!-- Refresh/continuous SVG -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+            </div>
+            <h3 class="principles__name">Continuous</h3>
+            <p class="principles__desc">Encouraging reflection, learning and improvement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="services__header text-center reveal">
+          <span class="section__eyebrow">Our Services</span>
+          <h2 class="section__heading">What We Do</h2>
+          <p class="section__subtext" style="margin: 0 auto;">We partner with educational institutions to address their evolving needs through practical, thoughtful and collaborative solutions.</p>
+        </div>
+        <div class="services__grid">
+          <div class="services__card reveal"><span class="services__number">01</span><span class="services__name">Educational Consulting</span></div>
+          <div class="services__card reveal"><span class="services__number">02</span><span class="services__name">Institutional Support</span></div>
+          <div class="services__card reveal"><span class="services__number">03</span><span class="services__name">Training &amp; Capacity Building</span></div>
+          <div class="services__card reveal"><span class="services__number">04</span><span class="services__name">Technology Integration</span></div>
+          <div class="services__card reveal"><span class="services__number">05</span><span class="services__name">HR &amp; Recruitment Support</span></div>
+          <div class="services__card reveal"><span class="services__number">06</span><span class="services__name">Admissions &amp; Fee Management</span></div>
+          <div class="services__card reveal"><span class="services__number">07</span><span class="services__name">Institutional Initiatives &amp; Projects</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-preview section" id="work-preview">
+      <div class="container">
+        <div class="work-preview__header text-center reveal">
+          <span class="section__eyebrow">Impact</span>
+          <h2 class="section__heading">Our Work in Action</h2>
+        </div>
+        <div class="work-preview__grid">
+          <div class="work-preview__card reveal">
+            <div class="work-preview__image work-preview__image--placeholder" style="background: linear-gradient(135deg, var(--color-gold-light), var(--color-blue-light));" aria-hidden="true"></div>
+            <div class="work-preview__body">
+              <span class="work-preview__area">Flagship Initiative</span>
+              <h3 class="work-preview__title">PAHAL</h3>
+            </div>
+          </div>
+          <div class="work-preview__card reveal">
+            <div class="work-preview__image work-preview__image--placeholder" style="background: linear-gradient(135deg, var(--color-blue-light), var(--color-steel-light));" aria-hidden="true"></div>
+            <div class="work-preview__body">
+              <span class="work-preview__area">Academic &amp; Research</span>
+              <h3 class="work-preview__title">Academic &amp; Research Initiatives</h3>
+            </div>
+          </div>
+          <div class="work-preview__card reveal">
+            <div class="work-preview__image work-preview__image--placeholder" style="background: linear-gradient(135deg, var(--color-steel-light), var(--color-gold-light));" aria-hidden="true"></div>
+            <div class="work-preview__body">
+              <span class="work-preview__area">Institutional Development</span>
+              <h3 class="work-preview__title">Institutional Development</h3>
+            </div>
+          </div>
+        </div>
+        <div class="work-preview__footer text-center reveal">
+          <a href="our-work.html" class="btn btn--ghost">Explore Our Work</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta section" id="final-cta">
+      <div class="container text-center">
+        <div class="final-cta__content reveal">
+          <h2 class="final-cta__heading">Let's Create Meaningful Change in Education.</h2>
+          <p class="final-cta__text">Whether you are looking to explore a collaboration, discuss an educational initiative or learn more about our work, we'd be glad to hear from you.</p>
+          <a href="contact.html" class="btn btn--primary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <div class="footer__brand">
+            <img src="assets/images/interlancy-logo.jpg" alt="Interlancy Education" class="footer__logo-img" style="height: 48px; margin-bottom: 0.75rem;">
+            <p class="footer__tagline">Shaping Better Possibilities in Education.</p>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Navigate</h4>
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="about.html" class="footer__link">About Us</a>
+          <a href="our-work.html" class="footer__link">Our Work</a>
+          <a href="careers.html" class="footer__link">Careers</a>
+          <a href="contact.html" class="footer__link">Contact Us</a>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Contact</h4>
+          <p class="footer__contact-text">Get in touch with us to explore how we can work together.</p>
+          <a href="contact.html" class="btn btn--ghost">Contact Us</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; Interlancy Education Private Limited</p>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>

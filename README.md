@@ -1,53 +1,70 @@
-# Interlancy Website
+# Interlancy Education Website
 
-> Transforming Schools. Empowering Futures.
+> **Shaping Better Possibilities in Education.**
 
-Corporate website for **Interlancy** — a B2B Education Consulting & School Transformation company serving schools and educational institutions.
+Official website for **Interlancy Education** — an educational consulting and services organisation established in 2021, working alongside institutions to strengthen the way education is envisioned, managed and experienced.
 
-## 🌐 Overview
+## Overview
 
-Interlancy partners with schools and educational institutions to deliver consulting services including curriculum design, teacher training, school accreditation, digital transformation, and leadership development.
+Interlancy Education partners with educational institutions to understand their unique contexts, identify their evolving needs and support them through practical, thoughtful and collaborative solutions.
 
-## 📁 Project Structure
+## Pages
+
+| Page | Status | Description |
+|------|--------|-------------|
+| Home | ✅ Built | Hero, Who We Are, Vision & Mission, Principles, Services, Work Preview, CTA |
+| About Us | 🔜 Planned | Full organisational story, team, values |
+| Our Work | 🔜 Planned | Projects, initiatives, case studies |
+| Careers | 🔜 Planned | Opportunities, culture |
+| Contact Us | 🔜 Planned | Contact form, information |
+
+## Project Structure
 
 ```
 interlancy-website/
-├── index.html          # Home page
-├── about.html          # About Us
-├── services.html       # Our Services  
-├── contact.html        # Contact Us
+├── index.html              # Home page
 ├── css/
-│   └── style.css       # Main stylesheet
+│   └── style.css           # Design system & styles
 ├── js/
-│   └── main.js         # Main JavaScript
-├── images/             # Image assets
+│   └── main.js             # Interactions & animations
+├── assets/
+│   ├── images/             # Photos, visuals, logo
+│   └── icons/              # Icons and visual motifs
+├── .gitignore
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Tech Stack
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ayushi0812-hub/interlancy-website.git
-   ```
-2. Open `index.html` in your browser
-3. Or use a local server:
-   ```bash
-   npx serve .
-   ```
+- **HTML5** — Semantic, accessible markup
+- **CSS3** — Custom Properties, Flexbox, Grid, mobile-first
+- **Vanilla JavaScript** — ES6+, IntersectionObserver, no dependencies
+- **Google Fonts** — Playfair Display (headings), Inter (body)
 
-## 🎨 Tech Stack
+## Design System
 
-- HTML5 (Semantic)
-- CSS3 (Custom Properties, Flexbox, Grid)
-- Vanilla JavaScript (ES6+)
-- Google Fonts (Inter, Playfair Display)
-- Font Awesome Icons
+| Token | Value |
+|-------|-------|
+| Primary Gold | `#BF9000` |
+| Blue | `#3D85C6` |
+| Steel Blue | `#5F86A3` |
+| Charcoal | `#242424` |
+| White | `#FFFFFF` |
+| Font Display | Playfair Display |
+| Font Body | Inter |
 
-## 📬 Contact
+## Getting Started
 
-For inquiries: [Contact Us](contact.html)
+```bash
+git clone https://github.com/ayushi0812-hub/interlancy-website.git
+```
 
-## 📄 License
+Open `index.html` in your browser, or use a local server:
 
-MIT License
+```bash
+npx serve .
+```
+
+## Licence
+
+© Interlancy Education Private Limited
